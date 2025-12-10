@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 import os
 
-TOKEN = "7807683658:AAGQWgtY5pKgu-NhmMlOg6xOm_kwxFaZ7qY"   # Token xavfsizlik uchun yashirilishi kerak
+TOKEN = "7807683658:AAEVPGDFCP_DlHBCSO5pP-6ADQUo-VpsxGs"   # Token xavfsizlik uchun yashirilishi kerak
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
@@ -277,3 +277,4 @@ async def back(msg: types.Message):
 # =========================
 if __name__ == '__main__':
     executor.start_polling(dp)
+
